@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+:root {
+  --bg: hsl(185, 75%, 39%);
+  --font-dark: hsl(229, 23%, 23%);
+  --font-muted: hsl(227, 10%, 46%);
+  --neutral: hsl(0, 0%, 59%);
+}
+
+.card {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  margin: 1rem;
+  min-width: 320px;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: -7px -8px 65px -5px rgba(0, 0, 0, 0.3);
+}
+
+.image {
+  padding-top: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1em 1em 0em 0em;
+  margin-bottom: 2rem;
+}
+.image img {
+  position: relative;
+  top: 2.25rem;
+  border-radius: 50%;
+}
+.info {
+  text-align: center;
+  line-height: 1.25;
+  margin: 2rem;
+}
+.stats {
+  display: flex;
+  border-top: 1px solid var(--neutral);
+  margin: 0.5rem;
+}
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  margin: 0em 0.5em;
+}
+span {
+  padding: 5px;
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--font-muted);
+  letter-spacing: 1px;
+}
+p {
+  color: var(--font-dark);
+  font-weight: 600;
+}
+@media screen and (max-width: 400px) {
+  .stat {
+    padding: 1rem;
+    margin: 0rem;
+  }
+  .info {
+    margin: 1rem;
+  }
+}

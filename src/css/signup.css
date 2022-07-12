@@ -1,0 +1,91 @@
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Roboto;
+    background-color: #f7f8fb;
+}
+
+.signupWrapper {
+    height: 90%;
+    width: 70%;
+    display: flex;
+}
+
+.signupLeft,
+.signupRight {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+}
+
+.signupLogo {
+    color: red;
+    font-weight: bolder;
+    font-size: 300%;
+}
+
+.signupDesc {
+    font-size: 120%;
+}
+
+.signupBox {
+
+    height: 70%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+.signupInput {
+    height: 3rem;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.signupInput:focus {
+    outline: none;
+}
+
+.signupBtn {
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(238, 71, 71);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.signupBtn:hover {
+    background-color: red;
+}
+
+.signupForgot {
+    text-align: center;
+    color: #1171f0;
+}
+
+.newText {
+    text-align: center;
+}
+
+.hr {
+    margin: 0px;
+}
+
+.logInBtn {
+    margin: 1rem;
+    color: #1171f0;
+}
